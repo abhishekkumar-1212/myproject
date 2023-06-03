@@ -1,0 +1,73 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "subarray",
+      "request": "launch",
+      "mainClass": "subarray",
+      "projectName": "DSA in java_bbbe12f2"
+    },
+    {
+      "type": "java",
+      "name": "subarray_sum",
+      "request": "launch",
+      "mainClass": "subarray_sum",
+      "projectName": "DSA in java_bbbe12f2"
+    },
+    {
+      "type": "java",
+      "name": "selectio_sort",
+      "request": "launch",
+      "mainClass": "selectio_sort",
+      "projectName": "DSA in java_bbbe12f2"
+    },
+    {
+      "type": "java",
+      "name": "BuySell",
+      "request": "launch",
+      "mainClass": "BuySell",
+      "projectName": "DSA in java_bbbe12f2"
+    },
+    {
+      "type": "java",
+      "name": "kadane_algoritm",
+      "request": "launch",
+      "mainClass": "kadane_algoritm",
+      "projectName": "DSA in java_bbbe12f2"
+    },
+    {
+      "type": "java",
+      "name": "subarr",
+      "request": "launch",
+      "mainClass": "subarr",
+      "projectName": "DSA in java_bbbe12f2"
+    },
+    {
+      "type": "java",
+      "name": "Largest_no",
+      "request": "launch",
+      "mainClass": "Largest_no",
+      "projectName": "DSA in java_bbbe12f2"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/ms/Desktop/DSA in java",
+      "program": "c:/Users/ms/Desktop/DSA in java/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
