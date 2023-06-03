@@ -1,0 +1,35 @@
+<html>
+<head>
+   <title>DOM MANIPULATION        </title>
+</head>
+<body>
+<ul>
+    <li>first element   </li>
+    <li>  second element </li>
+    <li> third element </li>
+</ul>
+<script>
+// By using java script code for DOM Manipulation
+// Root Node 
+ console.log(document.documentElement)
+ console.log(document.body)  // For access the body 
+ console.log(document.head)
+
+ // Children 
+ console.log(document.body.childNodes)
+ console.log(document.body.lastChild)
+ for(node of document.body.children){
+    console.log(document.body.children)
+ }
+ const childrenofBody=Array.from(document.body)
+ console.log(childrenofBody)
+ // Sibling 
+ const ulTag= document.body.children[0]
+ const firstLi= document.body.children[0]
+ const secondLi= document.body.children[1]
+ console.log(secondLi.previousElementSibling.textContent)
+</script>
+
+
+</body>
+</html>
