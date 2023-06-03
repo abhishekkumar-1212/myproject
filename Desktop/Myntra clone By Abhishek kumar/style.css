@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+html {
+
+    height:23px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin :0;
+    padding :0;
+ 
+  }
+  .left img{
+    width:23px;
+    height:23px;
+    
+  }
+  nav{
+    padding :0 12px;
+  }
+  .container {
+    max-width:80vw;
+    
+    margin:auto;
+  }
+  nav ul li{
+    list-style:none;
+  }
+  header {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+  }
+  element.style{
+    height: 100px;
+    padding-top:1px;
+    
+  }
+.homeimg{
+  width:56vw;
+}
+footer{
+  padding:23px;
+  text-align:center;
+}
