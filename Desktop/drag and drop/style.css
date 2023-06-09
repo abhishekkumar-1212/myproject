@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to right, #00c6fb, #005bea);
+
+}
+.imgBox{
+    background-image: url('image.jpg');
+/* As we know that for div container we set its height and width for display */
+position:relative;
+top:15px;
+left: 28px;
+height: 470px;
+width:420px;
+cursor :pointer /* It is used for click mouse and see like, hand when we drag our image*/
+
+}
+
+/* Inside whiteBox we have imgBox so we take the greater the height and width of whitebox than imgbox*/
+/* It works as container for imgbox*/
+.whiteBox{
+    display:inline-block ; /*Here we used this because all white boxes are in one line horizontally */
+height:490px;
+width:470px;
+margin:10px;
+background:  white;
+/* I want to border our white boxes*/
+border: 6px solid yellowgreen;
+}
+
+.hold{
+
+border:solid red 4px;
+
+}
+.hide{
+    display: none;
+}
+
+.dashed{
+  background-color: violet;
+  border-style: dashed;
+
+
+}
