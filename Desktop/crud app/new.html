@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clickable Count by Abhishek</title>
+    <style type= "text/css">
+        body{
+  background :#262626;
+  color:#fff;
+
+
+        }
+    </style>
+
+
+</head>
+<body>
+<div>
+<button onclick="Count()">presscount&nbsp;(<i id="Counting"></i>)</button></div>
+<script type="text/javascript">
+    var count=(function (){
+        var Counting=0;
+        return function(){
+    return Counting +=1;
+        }
+    })();
+function Count() {
+
+    
+    document.getElementById('Counting').innerHTML=count();
+}
+
+
+</script>
+
+
+
+</body>
+</html>

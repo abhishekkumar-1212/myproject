@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Bulb</title>
+    <style type= "text/css">
+        body{
+  background :#262626;
+  color:#fff;
+
+
+        }
+    </style>
+
+    <style>  
+        .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+ .btn {
+  padding: 20px;
+  background-color: green;
+
+
+ }
+
+    
+    </style>
+</head>
+
+<body style ="background-color: black;"> 
+    <img id ="bulb" src="Bulb_Off.png" alt="" class ="center "> 
+    <button id="toggleBtn" class ="center btn">Turn On</button>
+</head>
+<script>
+    // by using the event list 
+let btn = document.getElementById('toggleBtn')
+let bulb= document.getElementById('bulb')
+btn.addEventListener('click',toggleBulb)
+function toggleBulb(e){ // where  e is the event listner
+    if(btn.textContent.includes('On')){ 
+bulb.src="lighbulb (1) (3).png"
+btn.textContent="Turn Off"
+    
+}else{
+    bulb.src="Bulb_Off.png"
+btn.textContent="Turn On"
+}
+}
+
+</script>
+
+</head>
+<body>
+<div>
+<button onclick="cout()">Turn On &nbsp;(<i id="Counting"></i>)</button></div>
+<script type="text/javascript">
+function count() {
+
+    var Count=0;
+    document.getElementryById('Counting').innerHTML=++Count();
+}
+
+
+</script>
+
+
+
+
+</body>
+
+
+</html>
